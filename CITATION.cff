@@ -6,7 +6,7 @@ authors:
     given-names: "Sherry"
 year: 2026
 license: MIT
-repository-code: "https://github.com/<your-account>/darts"
+repository-code: "https://github.com/871674389/darts"
 keywords:
   - anomaly detection
   - multivariate time series
