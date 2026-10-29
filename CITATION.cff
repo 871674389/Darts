@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the DARTs paper."
+title: "DARTs: A Dual-Path Forecasting Graph Network for Anomaly Detection in High-Dimensional, Strongly-Coupled Multivariate Time Series"
+authors:
+  - family-names: "Liu"
+    given-names: "Sherry"
+year: 2026
+license: MIT
+repository-code: "https://github.com/<your-account>/darts"
+keywords:
+  - anomaly detection
+  - multivariate time series
+  - graph neural network
+  - industrial systems
