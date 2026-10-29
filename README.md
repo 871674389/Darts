@@ -187,9 +187,12 @@ boundary. Parameter count is **~0.46 M and invariant to dimensionality**.
 
 ## Acknowledgements
 
-The SPOT/POT thresholding implementation in `lib/spot.py` is adapted from
-A. Siffer et al. (GPLv3 header retained in the file). Benchmarks (SWaT, WADI,
-SMAP, MSL, SMD, PSM) belong to their respective providers; see `data/README.md`.
+`lib/spot.py` is an independent, MIT-licensed re-implementation of the SPOT
+algorithm (Siffer et al., KDD 2017) built on SciPy's Generalized Pareto fit;
+it follows only the published method and contains no third-party code. Please
+still cite the original SPOT paper if you use this thresholding. Benchmarks
+(SWaT, WADI, SMAP, MSL, SMD, PSM) belong to their respective providers; see
+`data/README.md`.
 
 ## License
 
